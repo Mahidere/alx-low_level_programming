@@ -23,7 +23,7 @@ void print_times_table(int n)
 					}
 					_putchar(z + '0');
 					if (y != n)
-						comma();
+						comma(void);
 				}
 				else if (z > 9 && z < 100)
 				{
@@ -31,7 +31,7 @@ void print_times_table(int n)
 					_putchar((z / 10) + '0');
 					_putchar((z % 10) + '0');
 					if (y != n)
-						comma();
+						comma(void);
 				}
 				else
 				{
@@ -39,7 +39,7 @@ void print_times_table(int n)
 					_putchar(((z / 10) % 10) + '0');
 					_putchar((z % 10) + '0');
 					if (y != n)
-						comma();
+						comma(void);
 				}
 			}
 			_putchar('\n');
