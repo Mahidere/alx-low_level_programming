@@ -4,10 +4,8 @@
  * @int: variable
  * Return: value
  */
-int _abs(int)
+int _abs(int x)
 {
-	int x;
-
 	if (x < 0)
 	{
 		x = -1 * x;
