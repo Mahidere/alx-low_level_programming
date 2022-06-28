@@ -5,9 +5,8 @@
  * @ac: number of arguments
  * @av: Pointer to arguments
  *
- * Retunr: argument or Null if fails
+ * Return: argument or Null if fails
  */
-
 char *argstostr(int ac, char **av)
 {
 	char *result;
